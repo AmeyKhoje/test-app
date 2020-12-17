@@ -3,11 +3,11 @@
 
 workflows:
     react-native:
-        name: React Native App
+        name: ShoppingApp
         environment:
             vars:
-                XCODE_WORKSPACE: "{{ ADD WORKSPACE NAME HERE }}"
-                XCODE_SCHEME: "{{ ADD SCHEME NAME HERE }}"
+                XCODE_WORKSPACE: "ShoppingAppWorkSpace"
+                XCODE_SCHEME: "ShoppingAppWorkSpace"
             node: latest
         scripts:
             - npm install
